@@ -1,0 +1,52 @@
+{
+    "_id": "65eee2e6a2860e5a8d5bc051",
+    "index": 5,
+    "guid": "0371fe9c-a969-4b23-8687-12025b76832e",
+    "is_active": false,
+    "balance": "$1,975.50",
+    "picture": "http://placehold.it/32x32",
+    "city": "Guam",
+    "zip_code": 2352,
+    "state": "Wisconsin",
+    "address": "770 Ide Court, Guam, Wisconsin, 2352",
+    "age": 27,
+    "eye_color": "green",
+    "name": "Enid Alford",
+    "gender": "female",
+    "company": "SIGNIDYNE",
+    "email": "enidalford@signidyne.com",
+    "domain": "signidyne.com",
+    "phone": "+1 (972) 594-2752",
+    "about": "Officia proident exercitation nulla nostrud laboris qui mollit sunt ad. Cillum aliqua culpa Lorem nostrud id id in pariatur amet. Eiusmod laboris commodo deserunt id tempor magna nostrud. Culpa in aliquip qui sunt exercitation. Nostrud sit cupidatat eu amet sint. Elit est ipsum amet magna ea in amet exercitation. Anim pariatur ea est id et ex.\r\n",
+    "registered": "2015-12-03T04:36:29 -02:00",
+    "latitude": 46.355409,
+    "longitude": 82.785814,
+    "tags": [
+        "enim",
+        "adipisicing",
+        "commodo",
+        "eu",
+        "nulla",
+        "mollit",
+        "ea"
+    ],
+    "friends": [
+        {
+            "id": 0,
+            "name": "Carlene Burris"
+        },
+        {
+            "id": 1,
+            "name": "Rosalyn Ochoa"
+        },
+        {
+            "id": 2,
+            "name": "Noemi Cole"
+        }
+    ],
+    "greeting": "Hello, Enid Alford! You have 10 unread messages.",
+    "favorite_fruit": "apple",
+    "mutual_friends": {},
+    "department": "",
+    "salary": 0
+}
