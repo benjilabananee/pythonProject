@@ -1,4 +1,3 @@
-import json
 class Person:
     def __init__(self, data: dict):
         self._id = data["_id"]
@@ -36,7 +35,7 @@ class Person:
     def _extract_domain(email: str) -> str:
         return email.split('@')[-1]
 
-
     def is_adult(self) -> bool:
         return self.age >= 18
+
 
