@@ -1,51 +1,49 @@
-import pandas as pd
 import json
+from src.Personn.employee import Employee
+import pandas as pd
 
 
-def find_mutual_friends(json_list):
-    # Convert JSON list to DataFrame
-    df = pd.DataFrame(json_list)
+def create_json_data(file_name: str):
+    with open(file_name, 'r') as file:
+        json_data = json.load(file)
+    return json_data
 
-    # Initialize an empty list to store mutual friends
+
+def save_json_to_disk(file_name: str, json_data: dict):
+    with open(file_name, 'w') as outfile:
+        json.dump(json_data, outfile, indent=2)
+
+
+def save_each_file_with_enrichment(json_data: dict, file_name: str):
+    employee_list_json = []
+    for person_data in json_data:
+        employee = Employee(person_data)
+        filename = file_name + f'{employee.guid}.json'
+        employee.save_single_json(filename)
+        employee_list_json.append(employee)
+        print(f'{filename} saved successfully as single employee file.')
+    return employee_list_json
+
+
+def find_mutual_friends(json_data: dict, directory_to_put_json: str):
+    df = pd.DataFrame(json_data)
     mutual_friends_list = []
 
-    # Iterate through combinations of JSON objects
     for i in range(len(df)):
         for j in range(i + 1, len(df)):
-            friends1 = set(df.iloc[i]['friends'])
-            friends2 = set(df.iloc[j]['friends'])
+            friends1 = set([item['name'] for item in df['friends'][i]])
+            friends2 = set([item['name'] for item in df['friends'][j]])
             mutual_friends = friends1.intersection(friends2)
-            mutual_friends_list.append({'{}_{}'.format(df.iloc[i]['_id'], df.iloc[j]['_id']): list(mutual_friends)})
-    return mutual_friends_list
+            if mutual_friends:
+                key = '{}_{}'.format(df.iloc[i]['_id'], df.iloc[j]['_id'])
+                save_json_to_disk(directory_to_put_json + key + '.json',{key: list(mutual_friends)})
 
 
-# Convert the list of dictionaries to JSON format
+original_json_data = create_json_data(
+    'C:\\Users\\benji\\PycharmProjects\\pythonProject\\file_to_be_transformed\\jsonEx.json')
+
+json_data_with_enrichment = save_each_file_with_enrichment(original_json_data,'C:\\Users\\benji\\PycharmProjects\\pythonProject\\file_to_be_loaded_into_mongo\\')
+
+find_mutual_friends(original_json_data,'C:\\Users\\benji\\PycharmProjects\\pythonProject\\mutual_friend_save\\')
 
 
-# Example list of JSON objects
-json_list = [
-    {
-        "_id": "65eee2e6143c9f64752ff4ed",
-        "friends": ["Serena Whitaker", "Alexandria Gill", "Simon Hanson"]
-    },
-    {
-        "_id": "some_other_id",
-        "friends": ["Serena Whitaker", "John Doe", "Simon Hanson"]
-    },
-    {
-        "_id": "another_id",
-        "friends": ["John Doe", "Mamie Cline", "Alexandria Gill"]
-    },
-    {
-        "_id": "yet_another_id",
-        "friends": ["Simon Hanson", "Serena Whitaker", "John Doe"]
-    }
-]
-
-# Finding mutual friends using pandas DataFrame
-mutual_friends_list = find_mutual_friends(json_list)
-mutual_friends_json = json.dumps(mutual_friends_list)
-
-print("Mutual Friends JSON:")
-print(mutual_friends_json)
-# print(mutual_friends_list)
