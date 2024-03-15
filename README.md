@@ -5,3 +5,4 @@ The goal in this Project is to get a json with employee data in each json and to
    - second type: json for mutual friends between each of the friends that was in the original big json
 3) insert the json into MongoDB
 4) receive other json and make a query on mongo by index to see if the data exist on db and if it's exist update the json on mongo
+   and if it's not insert the new data.
