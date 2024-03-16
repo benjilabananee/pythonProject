@@ -26,7 +26,6 @@ class Person:
         self.friends = data["friends"]
         self.greeting = data["greeting"]
         self.favorite_fruit = data["favoriteFruit"]
-        self.mutual_friends = {}
 
     def get_friends_count(self) -> int:
         return len(self.friends)

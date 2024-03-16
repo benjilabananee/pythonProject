@@ -5,7 +5,4 @@ class Employee(Person):
         super().__init__(data)
         self.department = data.get("department", "")
         self.salary = data.get("salary", 0)
-
-    def save_single_json(self, filename):
-        with open(filename, 'w') as file:
-            json.dump(self.__dict__, file, indent=4)
+        self.experience_year = data.get("experience",0)
