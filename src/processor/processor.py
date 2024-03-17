@@ -1,6 +1,9 @@
 import json
 import pandas as pd
 from src.Personn.employee import Employee
+from src.Mongodb_handler.mongo import MongoDBManager
+
+manager = MongoDBManager('localhost', 27017, 'my_database')
 
 
 class DataProcessor:
@@ -25,7 +28,7 @@ class DataProcessor:
         for person_data in self.json_data:
             employee = Employee(person_data)
             file_name = self.output_file_name_after_trans + f'{employee.guid}.json'
-            self.save_json_to_disk(file_name, vars(employee)) #convert the employee object into a dictionary
+            self.save_json_to_disk(file_name, vars(employee))  # convert the employee object into a dictionary
             employee_list_json.append(employee)
             print(f'{file_name} saved successfully as single employee file.')
         return employee_list_json
@@ -40,17 +43,21 @@ class DataProcessor:
                 mutual_friends = friends1.intersection(friends2)
                 if mutual_friends:
                     key = '{}_{}'.format(df.iloc[i]['_id'], df.iloc[j]['_id'])
-                    self.save_json_to_disk(self.output_file_dir_for_mutual_friends + key + '.json',
-                                           {key: list(mutual_friends)})
-                    print(f'{key} mutual friends was saved sucessfully!')
+                    dict_to_insert = {key: list(mutual_friends)}
+                    self.save_json_to_disk(self.output_file_dir_for_mutual_friends + key + '.json', dict_to_insert)
 
+                    if manager.find_document_by_key('users', key) is None:
+                        manager.insert_document('users', dict_to_insert)
+                        print('new values was inserted!')
+                    else:
+                        manager.update_document('users', key, list(mutual_friends))
+                        print('updated')
 
 if __name__ == "__main__":
+    manager = MongoDBManager('localhost', 27017, 'my_database')
     process_data = DataProcessor(
         'C:\\Users\\benji\\PycharmProjects\\pythonProject\\file_to_be_transformed\\jsonEx.json',
         'C:\\Users\\benji\\PycharmProjects\\pythonProject\\file_to_be_loaded_into_mongo\\',
         'C:\\Users\\benji\\PycharmProjects\\pythonProject\\mutual_friend_save\\')
 
-    process_data.save_each_file_with_enrichment()
-    print('******************************')
     process_data.find_mutual_friends()
