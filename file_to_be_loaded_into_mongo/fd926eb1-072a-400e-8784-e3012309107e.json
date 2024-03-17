@@ -1,0 +1,52 @@
+{
+  "_id": "65eee2e6097f7371b0f53527",
+  "index": 1,
+  "guid": "fd926eb1-072a-400e-8784-e3012309107e",
+  "is_active": true,
+  "balance": "$2,816.54",
+  "picture": "http://placehold.it/32x32",
+  "city": "Palau",
+  "zip_code": 1910,
+  "state": "Virgie",
+  "address": "433 Fleet Walk, Palau, Virgie, 1910",
+  "age": 36,
+  "eye_color": "blue",
+  "name": "Logan Mcconnell",
+  "gender": "male",
+  "company": "OULU",
+  "email": "loganmcconnell@oulu.com",
+  "domain": "oulu.com",
+  "phone": "+1 (913) 438-2237",
+  "about": "Non ea incididunt cupidatat sint anim sunt. Occaecat est excepteur et minim proident Lorem anim laboris. In eiusmod laboris aute do est exercitation mollit laborum. Lorem nisi in ipsum exercitation cupidatat incididunt ex commodo culpa. Duis voluptate excepteur aliqua sunt aute fugiat dolore excepteur minim exercitation eu magna. Adipisicing sunt cupidatat amet eu occaecat est reprehenderit nostrud pariatur non.\r\n",
+  "registered": "2019-11-30T01:28:27 -02:00",
+  "latitude": -67.801777,
+  "longitude": 79.081186,
+  "tags": [
+    "sint",
+    "consectetur",
+    "non",
+    "consectetur",
+    "laboris",
+    "mollit",
+    "sint"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Guerra Cleveland"
+    },
+    {
+      "id": 1,
+      "name": "Latoya Riddle"
+    },
+    {
+      "id": 2,
+      "name": "Lee Finch"
+    }
+  ],
+  "greeting": "Hello, Logan Mcconnell! You have 8 unread messages.",
+  "favorite_fruit": "banana",
+  "department": "",
+  "salary": 0,
+  "experience_year": 0
+}

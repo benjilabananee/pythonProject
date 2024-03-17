@@ -1,0 +1,52 @@
+{
+  "_id": "65eee2e613ed6f4afb336b79",
+  "index": 6,
+  "guid": "33a77c97-b5ee-4720-850a-ab9f0d421db3",
+  "is_active": true,
+  "balance": "$1,063.05",
+  "picture": "http://placehold.it/32x32",
+  "city": "Guam",
+  "zip_code": 2352,
+  "state": "Wisconsin",
+  "address": "741 Berkeley Place, Gallina, New Jersey, 3105, Guam, Wisconsin, 2352",
+  "age": 39,
+  "eye_color": "blue",
+  "name": "Raquel Middleton",
+  "gender": "female",
+  "company": "FUELWORKS",
+  "email": "raquelmiddleton@fuelworks.com",
+  "domain": "fuelworks.com",
+  "phone": "+1 (822) 551-3846",
+  "about": "Cupidatat tempor voluptate elit fugiat in eu irure sit eiusmod ut nostrud est amet. Occaecat minim in quis enim reprehenderit amet aliquip elit irure commodo. Officia aliquip consequat eu non sit eiusmod amet ea. Nostrud consectetur consectetur qui amet nostrud elit aliqua veniam ut tempor reprehenderit.\r\n",
+  "registered": "2021-04-17T04:39:02 -03:00",
+  "latitude": 72.779286,
+  "longitude": -39.51142,
+  "tags": [
+    "do",
+    "velit",
+    "deserunt",
+    "labore",
+    "consectetur",
+    "ut",
+    "reprehenderit"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Bridgette Gay"
+    },
+    {
+      "id": 1,
+      "name": "benji la banane"
+    },
+    {
+      "id": 2,
+      "name": "Deloris Aguirre"
+    }
+  ],
+  "greeting": "Hello, Raquel Middleton! You have 7 unread messages.",
+  "favorite_fruit": "banana",
+  "department": "",
+  "salary": 0,
+  "experience_year": 0
+}
