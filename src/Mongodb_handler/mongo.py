@@ -18,7 +18,6 @@ class MongoDBManager:
         collection = self.db[collection_name]
         query = {key: value_to_search}
         update_query = {'$set': replacement_value}
-        print(value_to_search)
         collection.update_one(query, update_query)
 
     def find_document_by_key(self, key, value_to_search, collection_name):
