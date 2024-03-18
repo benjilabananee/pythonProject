@@ -4,7 +4,7 @@
     "_id": "65eee2e65c40c3975af7c2cb",
     "index": 0,
     "guid": "52f90c72-d99c-4da1-a3e0-80ad47e6e563",
-    "isActive": true,
+    "isActive": 4444444,
     "balance": "$2,936.92",
     "picture": "http://placehold.it/32x32",
     "age": 37,
@@ -92,8 +92,10 @@
         "id": 2,
         "name": "Lee Finch"
       },
-      {"id": 3,
-        "name":"Briana Gallagher"}
+      {
+        "id": 3,
+        "name": "Carmen Wynn"
+      }
     ],
     "greeting": "Hello, Logan Mcconnell! You have 8 unread messages.",
     "favoriteFruit": "banana"
@@ -141,7 +143,9 @@
       {
         "id": 2,
         "name": "Simon Hanson"
-      }
+      },
+      {"id": 3,
+        "name":"Briana Gallagher"}
     ],
     "greeting": "Hello, Mamie Cline! You have 8 unread messages.",
     "favoriteFruit": "banana"
