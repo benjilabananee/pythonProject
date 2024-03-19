@@ -1,0 +1,52 @@
+{
+  "_id": "65eee2e6cd563befbe6c0b79",
+  "index": 3,
+  "guid": "efd6185d-ab97-450c-a96c-5f5885da350c",
+  "is_active": false,
+  "balance": "$2,715.42",
+  "picture": "http://placehold.it/32x32",
+  "city": "Tedrow",
+  "zip_code": 5258,
+  "state": "Nevada",
+  "address": "860 Alice Court, Tedrow, Nevada, 5258",
+  "age": 34,
+  "eye_color": "blue",
+  "name": "Snider Downs",
+  "gender": "male",
+  "company": "ISODRIVE",
+  "email": "sniderdowns@isodrive.com",
+  "domain": "isodrive.com",
+  "phone": "+1 (930) 435-2039",
+  "about": "Dolor ad deserunt irure veniam incididunt esse ullamco eu excepteur. Velit ex pariatur Lorem incididunt quis aliqua aliquip dolor consectetur elit laborum Lorem. Ullamco in eu incididunt magna duis proident.\r\n",
+  "registered": "2023-07-10T07:47:54 -03:00",
+  "latitude": 20.476707,
+  "longitude": -120.12806,
+  "tags": [
+    "cillum",
+    "laboris",
+    "ipsum",
+    "qui",
+    "exercitation",
+    "occaecat",
+    "ea"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Hurst Jarvis"
+    },
+    {
+      "id": 1,
+      "name": "Lucia Blanchard"
+    },
+    {
+      "id": 2,
+      "name": "Barker Harris"
+    }
+  ],
+  "greeting": "Hello, Snider Downs! You have 8 unread messages.",
+  "favorite_fruit": "strawberry",
+  "department": "",
+  "salary": 0,
+  "experience_year": 0
+}

@@ -1,0 +1,52 @@
+{
+  "_id": "65eee2e68f5dc57ff51d1dd1",
+  "index": 4,
+  "guid": "52924423-8700-4fbf-b044-4f7a7c086ecc",
+  "is_active": true,
+  "balance": "$1,234.74",
+  "picture": "http://placehold.it/32x32",
+  "city": "Westwood",
+  "zip_code": 828,
+  "state": "Wisconsin",
+  "address": "233 Revere Place, Westwood, Wisconsin, 828",
+  "age": 21,
+  "eye_color": "brown",
+  "name": "Velez Best",
+  "gender": "male",
+  "company": "IMAGEFLOW",
+  "email": "velezbest@imageflow.com",
+  "domain": "imageflow.com",
+  "phone": "+1 (881) 411-2054",
+  "about": "Ex voluptate amet exercitation culpa officia tempor ullamco est officia. Consectetur officia sint non minim consequat excepteur minim cillum. Tempor proident pariatur laborum nostrud. Enim laboris tempor et id.\r\n",
+  "registered": "2020-03-30T03:45:59 -03:00",
+  "latitude": -45.708601,
+  "longitude": 157.784242,
+  "tags": [
+    "enim",
+    "pariatur",
+    "enim",
+    "magna",
+    "qui",
+    "do",
+    "tempor"
+  ],
+  "friends": [
+    {
+      "id": 0,
+      "name": "Jensen Padilla"
+    },
+    {
+      "id": 1,
+      "name": "Krystal Herring"
+    },
+    {
+      "id": 2,
+      "name": "Bridgette Gay"
+    }
+  ],
+  "greeting": "Hello, Velez Best! You have 9 unread messages.",
+  "favorite_fruit": "strawberry",
+  "department": "enginerring",
+  "salary": 35000,
+  "experience_year": 0
+}

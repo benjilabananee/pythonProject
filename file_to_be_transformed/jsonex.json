@@ -1,0 +1,349 @@
+
+[
+  {
+    "_id": "65eee2e65c40c3975af7c2cb1243",
+    "index": 0,
+    "guid": "52f90c72-d99c-4da1-a3e0-80ad47e6e54463",
+    "isActive": true,
+    "balance": "$2,936.92",
+    "picture": "http://placehold.it/32x32",
+    "age": 37,
+    "eyeColor": "blue",
+    "name": "Oconnor Cote",
+    "gender": "male",
+    "company": "TROPOLI",
+    "email": "oconnorcote@tropoli.com",
+    "phone": "+1 (876) 483-2662",
+    "state": "North Carolina",
+    "zip_code": 4673,
+    "city": "Hatteras",
+    "address": "224 Vista Place",
+    "about": "Do ipsum dolore exercitation do aliqua sunt reprehenderit. Et quis minim reprehenderit anim aliqua anim elit tempor. Velit occaecat adipisicing est dolor. Laborum quis sint dolore et occaecat dolore incididunt mollit aliquip.\r\n",
+    "registered": "2014-08-31T05:09:31 -03:00",
+    "latitude": 65.328586,
+    "longitude": 143.353522,
+    "tags": [
+      "aliquip",
+      "magna",
+      "velit",
+      "occaecat",
+      "veniam",
+      "excepteur",
+      "velit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Myrtle Garrett"
+      },
+      {
+        "id": 1,
+        "name": "Carmen Wynn"
+      },
+      {
+        "id": 2,
+        "name": "Briana Gallagher"
+      }
+    ],
+    "greeting": "Hello, Oconnor Cote! You have 4 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "65eee2e6097f7371b0f53527",
+    "index": 1,
+    "guid": "fd926eb1-072a-400e-8784-e3012309107e",
+    "isActive": true,
+    "balance": "$2,816.54",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "blue",
+    "name": "Logan Mcconnell",
+    "gender": "male",
+    "company": "OULU",
+    "email": "loganmcconnell@oulu.com",
+    "phone": "+1 (913) 438-2237",
+    "zip_code": 1910,
+    "city": "Palau",
+    "state": "Virgie",
+    "address": "433 Fleet Walk",
+    "about": "Non ea incididunt cupidatat sint anim sunt. Occaecat est excepteur et minim proident Lorem anim laboris. In eiusmod laboris aute do est exercitation mollit laborum. Lorem nisi in ipsum exercitation cupidatat incididunt ex commodo culpa. Duis voluptate excepteur aliqua sunt aute fugiat dolore excepteur minim exercitation eu magna. Adipisicing sunt cupidatat amet eu occaecat est reprehenderit nostrud pariatur non.\r\n",
+    "registered": "2019-11-30T01:28:27 -02:00",
+    "latitude": -67.801777,
+    "longitude": 79.081186,
+    "tags": [
+      "sint",
+      "consectetur",
+      "non",
+      "consectetur",
+      "laboris",
+      "mollit",
+      "sint"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Guerra Cleveland"
+      },
+      {
+        "id": 1,
+        "name": "Latoya Riddle"
+      },
+      {
+        "id": 2,
+        "name": "Lee Finch"
+      },
+      {
+        "id": 3,
+        "name": "Carmen Wynn"
+      }
+    ],
+    "greeting": "Hello, Logan Mcconnell! You have 8 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "65eee2e6143c9f64752ff4ed",
+    "index": 2,
+    "guid": "6d10a0d6-0f78-4aba-83c9-c4294db2b7d7",
+    "isActive": true,
+    "balance": "$2,311.60",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "eyeColor": "green",
+    "name": "Mamie Cline",
+    "gender": "female",
+    "company": "FORTEAN",
+    "email": "mamiecline@fortean.com",
+    "phone": "+1 (902) 434-3004",
+    "zip_code": 9898,
+    "city": "Coalmont",
+    "state": "Missouri",
+    "address": "931 Furman Avenue",
+    "about": "Sit laborum aliquip nostrud enim ut. In aliqua qui proident magna nisi duis dolor excepteur. Voluptate anim enim enim nisi anim id aliquip nostrud amet excepteur duis cupidatat. Nostrud ad ut minim aliquip reprehenderit do duis occaecat incididunt cillum nisi. Do dolore ex proident consequat adipisicing ad dolore sint sunt.\r\n",
+    "registered": "2023-11-30T06:24:48 -02:00",
+    "latitude": -76.544559,
+    "longitude": 133.724694,
+    "tags": [
+      "exercitation",
+      "quis",
+      "laboris",
+      "est",
+      "Lorem",
+      "commodo",
+      "eu"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Serena Whitaker"
+      },
+      {
+        "id": 1,
+        "name": "Alexandria Gill"
+      },
+      {
+        "id": 2,
+        "name": "Simon Hanson"
+      },
+      {"id": 3,
+        "name":"Briana Gallagher"}
+    ],
+    "greeting": "Hello, Mamie Cline! You have 8 unread messages.",
+    "favoriteFruit": "banana"
+  },
+  {
+    "_id": "65eee2e6cd563befbe6c0b79",
+    "index": 3,
+    "guid": "efd6185d-ab97-450c-a96c-5f5885da350c",
+    "isActive": false,
+    "balance": "$2,715.42",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": "Snider Downs",
+    "gender": "male",
+    "company": "ISODRIVE",
+    "email": "sniderdowns@isodrive.com",
+    "phone": "+1 (930) 435-2039",
+    "zip_code": 5258,
+    "city": "Tedrow",
+    "state": "Nevada",
+    "address": "860 Alice Court",
+    "about": "Dolor ad deserunt irure veniam incididunt esse ullamco eu excepteur. Velit ex pariatur Lorem incididunt quis aliqua aliquip dolor consectetur elit laborum Lorem. Ullamco in eu incididunt magna duis proident.\r\n",
+    "registered": "2023-07-10T07:47:54 -03:00",
+    "latitude": 20.476707,
+    "longitude": -120.12806,
+    "tags": [
+      "cillum",
+      "laboris",
+      "ipsum",
+      "qui",
+      "exercitation",
+      "occaecat",
+      "ea"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Hurst Jarvis"
+      },
+      {
+        "id": 1,
+        "name": "Lucia Blanchard"
+      },
+      {
+        "id": 2,
+        "name": "Barker Harris"
+      }
+    ],
+    "greeting": "Hello, Snider Downs! You have 8 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "65eee2e68f5dc57ff51d1dd1",
+    "index": 4,
+    "guid": "52924423-8700-4fbf-b044-4f7a7c086ecc",
+    "isActive": true,
+    "balance": "$1,234.74",
+    "picture": "http://placehold.it/32x32",
+    "age": 21,
+    "eyeColor": "brown",
+    "name": "Velez Best",
+    "gender": "male",
+    "company": "IMAGEFLOW",
+    "email": "velezbest@imageflow.com",
+    "phone": "+1 (881) 411-2054",
+    "zip_code": 828,
+    "city": "Westwood",
+    "state": "Wisconsin",
+    "address": "233 Revere Place",
+    "about": "Ex voluptate amet exercitation culpa officia tempor ullamco est officia. Consectetur officia sint non minim consequat excepteur minim cillum. Tempor proident pariatur laborum nostrud. Enim laboris tempor et id.\r\n",
+    "registered": "2020-03-30T03:45:59 -03:00",
+    "latitude": -45.708601,
+    "longitude": 157.784242,
+    "tags": [
+      "enim",
+      "pariatur",
+      "enim",
+      "magna",
+      "qui",
+      "do",
+      "tempor"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jensen Padilla"
+      },
+      {
+        "id": 1,
+        "name": "Krystal Herring"
+      },
+      {
+        "id": 2,
+        "name": "Bridgette Gay"
+      }
+    ],
+    "greeting": "Hello, Velez Best! You have 9 unread messages.",
+    "favoriteFruit": "strawberry",
+    "department" : "enginerring",
+    "salary" : 35000
+  },
+  {
+    "_id": "65eee2e6a2860e5a8d5bc051",
+    "index": 5,
+    "guid": "0371fe9c-a969-4b23-8687-12025b76832e",
+    "isActive": false,
+    "balance": "$1,975.50",
+    "picture": "http://placehold.it/32x32",
+    "age": 27,
+    "eyeColor": "green",
+    "name": "Enid Alford",
+    "gender": "female",
+    "company": "SIGNIDYNE",
+    "email": "enidalford@signidyne.com",
+    "phone": "+1 (972) 594-2752",
+     "zip_code": 2352,
+    "city": "Guam",
+    "state": "Wisconsin",
+    "address": "770 Ide Court",
+    "about": "Officia proident exercitation nulla nostrud laboris qui mollit sunt ad. Cillum aliqua culpa Lorem nostrud id id in pariatur amet. Eiusmod laboris commodo deserunt id tempor magna nostrud. Culpa in aliquip qui sunt exercitation. Nostrud sit cupidatat eu amet sint. Elit est ipsum amet magna ea in amet exercitation. Anim pariatur ea est id et ex.\r\n",
+    "registered": "2015-12-03T04:36:29 -02:00",
+    "latitude": 46.355409,
+    "longitude": 82.785814,
+    "tags": [
+      "enim",
+      "adipisicing",
+      "commodo",
+      "eu",
+      "nulla",
+      "mollit",
+      "ea"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jensen Padilla"
+      },
+      {
+        "id": 1,
+        "name": "Bridgette Gay"
+      },
+      {
+        "id": 2,
+        "name": "Krystal Herring"
+      }
+    ],
+    "greeting": "Hello, Enid Alford! You have 10 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "65eee2e613ed6f4afb336b79",
+    "index": 6,
+    "guid": "33a77c97-b5ee-4720-850a-ab9f0d421db3",
+    "isActive": true,
+    "balance": "$1,063.05",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "eyeColor": "blue",
+    "name": "Raquel Middleton",
+    "gender": "female",
+    "company": "FUELWORKS",
+    "email": "raquelmiddleton@fuelworks.com",
+    "zip_code": 2352,
+    "city": "Guam",
+    "state": "Wisconsin",
+    "address": "770 Ide Court",
+    "phone": "+1 (822) 551-3846",
+
+    "address": "741 Berkeley Place, Gallina, New Jersey, 3105",
+    "about": "Cupidatat tempor voluptate elit fugiat in eu irure sit eiusmod ut nostrud est amet. Occaecat minim in quis enim reprehenderit amet aliquip elit irure commodo. Officia aliquip consequat eu non sit eiusmod amet ea. Nostrud consectetur consectetur qui amet nostrud elit aliqua veniam ut tempor reprehenderit.\r\n",
+    "registered": "2021-04-17T04:39:02 -03:00",
+    "latitude": 72.779286,
+    "longitude": -39.51142,
+    "tags": [
+      "do",
+      "velit",
+      "deserunt",
+      "labore",
+      "consectetur",
+      "ut",
+      "reprehenderit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Bridgette Gay"
+      },
+      {
+        "id": 1,
+        "name": "benji la banane"
+      },
+      {
+        "id": 2,
+        "name": "Deloris Aguirre"
+      }
+    ],
+    "greeting": "Hello, Raquel Middleton! You have 7 unread messages.",
+    "favoriteFruit": "banana"
+  }
+]
