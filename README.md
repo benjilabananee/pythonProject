@@ -1,4 +1,4 @@
-The goal in this Project is to get all json employee data from a folder and for each of this json files seperate the big json into small one that will be pushed into mongo db after being modified
+The goal in this Project is to get all json employee data from a folder (the process will run in a while loop everytime) and for each of this json files seperate the big json into small one that will be pushed into mongo db after being modified
 1) get the data from json and make manipulation of this data
 2) separate the big json into smaller json when:
    - first type: each json will represent one employee (the data will be transformed)
