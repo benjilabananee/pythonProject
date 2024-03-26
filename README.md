@@ -6,3 +6,4 @@ The goal in this Project is to get all json employee data from a folder (the pro
 3) insert the json into MongoDB (you'll need to run a container for mongodb)
 4) receive other json and make a query on mongo by index to see if the data exist on db and if it's exist update the json on mongo
    and if it's not insert the new data.
+5) the transformed data will also be stock in two other folders (in order to check easily without going into the db) for mutual friend it will be stock in mutual_friend_save and for the divided data it will be stock into the folder named file_to_be_loaded_in_mongo
